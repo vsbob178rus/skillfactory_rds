@@ -15,3 +15,14 @@ def game_number(number):
         else:
             break
     return(i)
+ def score_game(game_number):
+    '''Запускаем игру 1000 раз'''
+    count_ls=[]
+    np.random.seed(1)
+    random_array=np.random.randint(1, 101, size=(1000))
+    for number n random array:
+        count_ls.append(game_number(number)
+    score=int(np.mean(count_ls))
+    print(f"ваш алгоритм угадывает число за {score} попыток")
+    return(score)
+score_game(game_number)
